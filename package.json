@@ -1,5 +1,5 @@
 {
-  "name": "shopping-cart",
+  "name": "WB-shopping-cart",
   "version": "0.0.1",
   "description": "### Обзор",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rumpil666/shopping-cart.git"
+    "url": "git+https://github.com/rumpil666/WB-shopping-cart.git"
   },
   "author": "Mashov Anton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rumpil666/shopping-cart/issues"
+    "url": "https://github.com/rumpil666/WB-shopping-cart/issues"
   },
-  "homepage": "https://github.com/rumpil666/shopping-cart#readme",
+  "homepage": "https://github.com/rumpil666/WB-shopping-cart#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
