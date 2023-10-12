@@ -1,0 +1,5 @@
+@media screen and (max-width: 580px) {
+  .item__size {
+      display: none;
+  }
+}

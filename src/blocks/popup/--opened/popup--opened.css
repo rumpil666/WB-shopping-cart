@@ -1,0 +1,5 @@
+.popup--opened {
+  margin: auto;
+  opacity: 1;
+  visibility: visible;
+}

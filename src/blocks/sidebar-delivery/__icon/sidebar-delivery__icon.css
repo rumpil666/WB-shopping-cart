@@ -1,0 +1,10 @@
+.sidebar-delivery__icon {
+  width: 22px;
+  height: 22px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: #F6F6FA;
+  background-position: center;
+  /* background-image: url(../../../images/price_shipping.svg); */
+}

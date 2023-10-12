@@ -1,0 +1,15 @@
+.basket-list__price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list__price-container {
+    max-width: 94px;
+  }
+}
+

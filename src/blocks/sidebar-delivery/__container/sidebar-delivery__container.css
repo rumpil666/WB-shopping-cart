@@ -1,0 +1,19 @@
+.sidebar-delivery__container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  gap: 8px;
+  padding: 8px 8px 12px 8px;
+  background-color: #F6F6FA;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 580px) {
+  .sidebar-delivery__container {
+    background-color: #F0ECF4;
+    justify-content: center;
+  }
+}

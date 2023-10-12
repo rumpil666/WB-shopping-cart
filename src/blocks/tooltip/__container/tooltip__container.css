@@ -1,0 +1,9 @@
+.tooltip__container {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 11px 16px 13px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-width: 239px;
+}

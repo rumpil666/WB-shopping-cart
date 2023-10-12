@@ -1,0 +1,8 @@
+.popup__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 100%;
+  padding: 4px 0 8px 0;
+}

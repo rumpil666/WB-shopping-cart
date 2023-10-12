@@ -1,0 +1,18 @@
+.basket-list__plus {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list__plus {
+    height: 32px;
+  }
+}
+

@@ -1,0 +1,9 @@
+.sidebar-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 381px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

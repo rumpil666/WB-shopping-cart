@@ -1,0 +1,13 @@
+.basket-list__accordion_btn {
+  box-sizing: border-box;
+  border: 0;
+  margin: 2px 0 0 0;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../../../images/accordion-close.svg');
+}

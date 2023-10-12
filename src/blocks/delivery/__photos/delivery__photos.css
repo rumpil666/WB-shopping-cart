@@ -1,0 +1,21 @@
+.delivery__photos {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+@media screen and (max-width: 580px) {
+  .delivery__photos {
+    padding-top: 12px;
+    margin-bottom: 8px;
+  }
+
+  .delivery__photos:last-child {
+    margin-bottom: 0px;
+  }
+}
+

@@ -1,0 +1,13 @@
+.basket-list__details-item--sold-out {
+  width: 182px;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list__details-item--sold-out {
+    height: 24px;
+    position: absolute;
+    top: 130px;
+    left: 106px;
+  }
+}

@@ -1,0 +1,26 @@
+.item__span-size {
+  display: none;
+}
+
+@media screen and (max-width: 580px) {
+  .item__span-size {
+    background-color: #fff;
+    text-align: center;
+    height: 19px;
+    min-width: 14px;
+    max-width: 72px;
+    padding: 0 4px 3px 4px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    top: 48px;
+    left: 4px;
+    display: block;
+  }
+
+  .item__span-size:empty {
+    display: none;
+  }
+}

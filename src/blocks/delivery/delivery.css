@@ -1,0 +1,22 @@
+.delivery {
+  margin-top: 34px;
+  border-radius: 16px;
+  background-color: #fff;
+  max-width: 891px;
+  min-width: 638px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+  .delivery {
+    min-width: 400px;
+    max-width: 638px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .delivery {
+    min-width: 320px;
+    margin-left: -16px;
+  }
+}

@@ -1,0 +1,12 @@
+.delivery__info {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 24px 0;
+  gap: 16px;
+}
+
+@media screen and (max-width: 580px) {
+  .delivery__info {
+    margin: 8px 0 24px 0;
+  }
+}

@@ -1,0 +1,21 @@
+.popup__subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 400px;
+  width: max-content;
+  height: fit-content;
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 580px) {
+  .popup__subtitle {
+    max-width: 230px;
+    white-space: wrap;
+  }
+}
+

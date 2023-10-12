@@ -1,0 +1,15 @@
+.item__container {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  max-width: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  .item__container {
+    position: relative;
+    justify-content: space-between;
+    align-self: center;
+  }
+}

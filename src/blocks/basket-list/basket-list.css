@@ -1,0 +1,20 @@
+.basket-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 891px;
+  min-width: 638px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+  .basket-list {
+    min-width: 400px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list {
+    min-width: 288px;
+  }
+}
+

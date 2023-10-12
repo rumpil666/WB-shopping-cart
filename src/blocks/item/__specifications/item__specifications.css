@@ -1,0 +1,8 @@
+.item__specifications {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 16px;
+  margin: 0;
+}
+

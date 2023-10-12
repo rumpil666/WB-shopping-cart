@@ -1,0 +1,7 @@
+.basket-list__container-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 56px;
+  height: 20px;
+}

@@ -1,0 +1,12 @@
+.popup__address-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 0 4px;
+  padding: 0;
+}
+
+.popup__address-title:last-child {
+  margin: 0 0 0 8px;
+  color: #9797AF;
+}

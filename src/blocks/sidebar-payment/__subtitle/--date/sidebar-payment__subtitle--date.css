@@ -1,0 +1,14 @@
+.sidebar-payment__subtitle--date {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 139px;
+  min-width: none;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  letter-spacing: 0.3px;
+}

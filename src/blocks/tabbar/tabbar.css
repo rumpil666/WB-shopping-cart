@@ -1,0 +1,16 @@
+.tabbar {
+  display: none;
+}
+
+@media screen and (max-width: 580px) {
+  .tabbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 13px 14px;
+    position: sticky;
+    bottom: 0;
+  }
+}
+

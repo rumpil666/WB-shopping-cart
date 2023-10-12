@@ -1,0 +1,17 @@
+.basket-list__title {
+  width: 114px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  margin-top: 24px;
+  margin-bottom: 27px;
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list__title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+  }
+}

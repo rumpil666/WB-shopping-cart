@@ -1,0 +1,5 @@
+@media screen and (max-width: 580px) {
+  .delivery__container--phone {
+    flex-direction: column !important;
+  }
+}

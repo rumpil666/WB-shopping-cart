@@ -1,0 +1,10 @@
+.basket-list--sold-out {
+  margin: 37px 0 0 0;
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list--sold-out {
+    margin: 35px 0 0 0;
+  }
+}
+

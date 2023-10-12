@@ -1,0 +1,22 @@
+.basket-list__price_title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: right;
+  cursor: default;
+}
+
+
+@media screen and (max-width: 580px) {
+  .basket-list__price_title {
+    width: auto;
+    white-space: nowrap;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+}

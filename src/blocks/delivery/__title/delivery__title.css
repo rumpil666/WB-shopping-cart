@@ -1,0 +1,14 @@
+.delivery__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.3px;
+  margin: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .delivery__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,10 @@
+.sidebar-delivery__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  max-width: 335px;
+  min-width: none;
+  width: 100%;
+  letter-spacing: -0.1px;
+}

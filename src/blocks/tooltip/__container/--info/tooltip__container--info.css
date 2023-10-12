@@ -1,0 +1,16 @@
+.tooltip__container--info {
+  display: flex;
+  flex-direction: column;
+  left: 150px;
+  gap: 8px;
+  max-width: 280px;
+  min-width: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  .tooltip__container--info {
+    display: none;
+  }
+}
+

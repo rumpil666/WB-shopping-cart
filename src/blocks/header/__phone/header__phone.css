@@ -1,0 +1,14 @@
+.header__phone {
+  display: none;
+}
+
+@media screen and (max-width: 580px) {
+  .header__phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 13px;
+  }
+}

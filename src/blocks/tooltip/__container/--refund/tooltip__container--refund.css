@@ -1,0 +1,12 @@
+.tooltip__container--refund {
+  max-width: 288px;
+  width: 100%;
+  margin-top: 5px;
+  left: 25%;
+}
+
+@media screen and (max-width: 580px) {
+  .tooltip__container--refund {
+    left: 14px;
+  }
+}

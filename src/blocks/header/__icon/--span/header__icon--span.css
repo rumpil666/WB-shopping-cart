@@ -1,0 +1,20 @@
+.header__icon--span {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  max-width: 18px;
+  width: 100%;
+  height: 16px;
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #f55123;
+  padding: 0 1px 0 1px;
+  border-radius: 16px;
+}
+
+.header__icon--span:empty {
+display: none;
+}

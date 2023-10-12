@@ -1,0 +1,29 @@
+.basket-list__input {
+  width: 44px;
+  height: 23px;
+  background-color: #fff;
+  border: none;
+  cursor: text;
+  text-align: center;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.basket-list__input:disabled {
+  color: #000;
+}
+
+.basket-list__input::-webkit-outer-spin-button,
+.basket-list__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list__input {
+    width: 24px;
+    height: 30px;
+  }
+}

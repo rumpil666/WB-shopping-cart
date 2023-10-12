@@ -1,0 +1,8 @@
+.popup__container--discount {
+  display: flex;
+  flex-direction: column;
+  max-width: 239px;
+  min-width: none;
+  width: 100%;
+  gap: 8px;
+}

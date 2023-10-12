@@ -1,0 +1,15 @@
+.basket-list__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 580px) {
+  .basket-list__container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    padding: 0;
+  }
+}

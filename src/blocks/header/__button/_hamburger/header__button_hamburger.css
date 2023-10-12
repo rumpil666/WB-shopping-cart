@@ -1,0 +1,21 @@
+.header__button_hamburger {
+  box-sizing: border-box;
+  border: 0;
+  margin: 4px 16px 0 0;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+  background-image: url(../../../../images/Hamburger.svg);
+  width: 48px;
+  height: 48px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+  .header__button_hamburger {
+    width: 28px;
+    height: 28px;
+    background-image: url(../../../../images/HamburgerPhone.svg);
+  }
+}

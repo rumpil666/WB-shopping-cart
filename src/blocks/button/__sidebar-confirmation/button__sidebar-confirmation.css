@@ -1,0 +1,17 @@
+.button__sidebar-confirmation {
+  max-width: 381px;
+  min-width: none;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #CB11AB;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding-bottom: 6px;
+}

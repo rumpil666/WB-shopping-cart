@@ -1,0 +1,14 @@
+.sidebar-payment__between {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 436px;
+  min-width: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  .sidebar-payment__between {
+    display: none;
+  }
+}

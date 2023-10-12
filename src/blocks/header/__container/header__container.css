@@ -1,0 +1,13 @@
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 970px;
+  min-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__container:nth-child(2) {
+  flex-grow: 1;
+}

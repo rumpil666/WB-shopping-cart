@@ -1,0 +1,5 @@
+.popup__between {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+}

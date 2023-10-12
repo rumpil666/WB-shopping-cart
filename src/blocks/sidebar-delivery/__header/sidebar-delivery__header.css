@@ -1,0 +1,13 @@
+.sidebar-delivery__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .sidebar-delivery__header {
+    display: none;
+  }
+}

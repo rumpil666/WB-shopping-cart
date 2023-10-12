@@ -1,0 +1,7 @@
+.sidebar-delivery {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 381px;
+  width: 100%;
+}
