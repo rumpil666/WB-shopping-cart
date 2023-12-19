@@ -1,7 +1,6 @@
 .delivery__refund--span {
   cursor: pointer;
   color: #0CB477;
-  letter-spacing: 0.2px;
   text-decoration: underline dashed;
   text-underline-offset: 4px;
 }

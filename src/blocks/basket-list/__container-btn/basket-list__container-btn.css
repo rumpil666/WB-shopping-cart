@@ -5,3 +5,9 @@
   width: 56px;
   height: 20px;
 }
+
+@media screen and (max-width: 580px) {
+  .basket-list__container-btn {
+    width: 65px;
+  }
+}

@@ -164,7 +164,7 @@
                 src="<%=require('./images/MiR.svg')%>"
                 alt=""
               />
-              <h3 class="sidebar-payment__subtitle">1235 12•• •••• 1234</h3>
+              <h3 class="sidebar-payment__subtitle sidebar-payment__subtitle--origin">1235 12•• •••• 1234</h3>
               <h3 class="sidebar-payment__subtitle--date">01/30</h3>
             </div>
             <span class="payment__lable"
@@ -280,7 +280,7 @@
               <p class="sidebar-total__text">Доставка</p>
             </div>
             <div class="sidebar-total__container">
-              <h3 class="sidebar-total__subtitle"></h3>
+              <h3 class="sidebar-total__subtitle"><span class="sidebar-total__subtitle--price"></span><span  class="sidebar-total__subtitle--valet"> сом</span></h3>
               <p
                 class="sidebar-total__text sidebar-total__text--right price-no-discount"
               ></p>
@@ -430,11 +430,12 @@
               <li class="popup__element">
                 <div class="radio-container">
                   <input
-                    class="radio"
+                    class="radio delivery-adress"
                     type="radio"
                     id="address"
                     name="address"
                     value="Бишкек, улица Табышалиева, 57"
+                    checked
                   />
                   <label for="address">
                     <div class="popup__between">
@@ -453,7 +454,7 @@
               <li class="popup__element">
                 <div class="radio-container">
                   <input
-                    class="radio"
+                    class="radio delivery-adress"
                     type="radio"
                     id="address1"
                     name="address"
@@ -476,7 +477,7 @@
               <li class="popup__element">
                 <div class="radio-container">
                   <input
-                    class="radio"
+                    class="radio delivery-adress"
                     type="radio"
                     id="address2"
                     name="address"
@@ -509,18 +510,18 @@
               <li class="popup__element">
                 <div class="radio-container">
                   <input
-                    class="radio"
+                    class="radio delivery-adress"
                     type="radio"
                     id="office"
                     name="office"
-                    value="г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1"
+                    value="Бишкек, улица Ахматбека Суюмбаева, 12/1"
+                    checked
                   />
                   <label for="office">
                     <div class="popup__between">
                       <div class="popup__address-container-column">
                         <h3 class="popup__subtitle popup__subtitle--address">
-                          г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д.
-                          67/1
+                          Бишкек, улица Ахматбека Суюмбаева, 12/1
                         </h3>
                         <div class="popup__address-container-row">
                           <img
@@ -544,7 +545,7 @@
               <li class="popup__element">
                 <div class="radio-container">
                   <input
-                    class="radio"
+                    class="radio delivery-adress"
                     type="radio"
                     id="office1"
                     name="office"
@@ -579,7 +580,7 @@
               <li class="popup__element">
                 <div class="radio-container">
                   <input
-                    class="radio"
+                    class="radio delivery-adress"
                     type="radio"
                     id="office2"
                     name="office"
@@ -634,7 +635,7 @@
           <ul class="popup__list popup__list--payment">
             <li class="popup__element popup__element--payment">
               <input
-                class="radio"
+                class="radio valet"
                 type="radio"
                 id="valet0"
                 name="card"
@@ -655,7 +656,7 @@
             </li>
             <li class="popup__element popup__element--payment">
               <input
-                class="radio"
+                class="radio valet"
                 type="radio"
                 id="valet1"
                 name="card"
@@ -675,7 +676,7 @@
             </li>
             <li class="popup__element popup__element--payment">
               <input
-                class="radio"
+                class="radio valet"
                 type="radio"
                 id="valet2"
                 name="card"
@@ -695,7 +696,7 @@
             </li>
             <li class="popup__element popup__element--payment">
               <input
-                class="radio"
+                class="radio valet"
                 type="radio"
                 id="valet3"
                 name="card"
@@ -843,7 +844,7 @@
       <li class="delivery__photo delivery__photo--visible">
         <img
           class="delivery__img"
-          src="<%=require('./images/Img1.png')%>"
+          src="<%=require('./images/img1.jpg')%>"
           alt=""
         />
         <span class="delivery__number" title=""></span>

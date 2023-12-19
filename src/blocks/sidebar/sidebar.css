@@ -12,15 +12,17 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 1000px) {
   .sidebar {
     position: static;
-    margin: -46px 0 0 24px;
+    max-width: 90vw;
+    margin: -20px auto 24px;
   }
 }
 
 @media screen and (max-width: 580px) {
   .sidebar {
+    max-width: 532px;
     background-color: #F6F6FA;
     box-shadow: none;
     margin: -48px auto 0;

@@ -5,6 +5,21 @@ export default class PopupPayment extends Popup {
       super(popupSelector);
       this._handleFormSubmit = handleFormSubmit;
       this._popupForm = this._popup.querySelector('.popup__form');
+      this._checked = null;
+    }
+
+    open() {
+      super.open();
+      this._checked = document.querySelector('input[name="card"]:checked');
+    }
+
+    closeSubmit() {
+      super.close();
+    }
+
+    close() {
+      this._checked.checked = true;
+      super.close();
     }
 
     setEventListeners() {

@@ -39,7 +39,11 @@
 
 @media screen and (max-width: 580px) {
   .checkbox+label::before {
-
+    background-color: white;
     z-index: 1;
+  }
+
+  .checkbox--buy+label::before {
+    background-color:#F0ECF4;
   }
 }

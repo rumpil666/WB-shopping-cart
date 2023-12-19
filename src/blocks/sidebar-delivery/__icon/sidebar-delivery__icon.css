@@ -6,5 +6,10 @@
   outline: none;
   background-color: #F6F6FA;
   background-position: center;
-  /* background-image: url(../../../images/price_shipping.svg); */
+}
+
+@media screen and (max-width: 580px) {
+  .sidebar-delivery__icon {
+    background-color: #F0ECF4;
+  }
 }

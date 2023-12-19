@@ -14,14 +14,26 @@
 
 @media screen and (max-width: 1000px) {
   .content {
-    max-width: 500px;
+    max-width: 90vw;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 580px) {
   .content {
-    max-width: 288px;
     margin: 10px auto 26px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .content {
+    margin: 10px auto 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    max-width: 320px;
   }
 }
 

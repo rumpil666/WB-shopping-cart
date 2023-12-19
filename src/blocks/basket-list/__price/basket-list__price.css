@@ -12,8 +12,8 @@
   .basket-list__price {
     flex-direction: row;
     position: absolute;
-    top: 16px;
-    margin-left: 90px;
+    top: 21px;
+    margin-left: 96px;
     height: 24px;
     align-items: flex-end;
     margin-top: -20px;

@@ -61,7 +61,7 @@ export default class Product {
     this._amountDiscount = this._element.querySelector('.amount__discount');
     this._amountPersonalDiscount = this._element.querySelector('.amount__personal-discount');
     this._remainingQuantity = this._element.querySelector('.basket-list__span');
-    this._sidebarTotal = document.querySelector('.sidebar-total__subtitle');
+    this._sidebarTotal = document.querySelector('.sidebar-total__subtitle--price');
     this._quantityProductSidebar = document.querySelector('.quantity__product');
     this._priceNoDiscountSidebar = document.querySelector('.price-no-discount');
     this._discountSidebar = document.querySelector('.discount');
@@ -116,7 +116,7 @@ export default class Product {
   }
 
   _modifyNumber(num) {
-    return num.replace(/(?=(?:.{3})*$)/g, ' ');
+    return Number(num).toLocaleString();
   };
 
   _countAmountDiscount() {
@@ -258,7 +258,7 @@ export default class Product {
   _toggleCheckboxBuy() {
     if(this._checkboxBuy.checked === true) {
       this._paymentTextHide.classList.add('sidebar-payment__text--hide');
-      this._buttonOrder.textContent = `Оплатить ${this._sidebarTotal.textContent}`;
+      this._buttonOrder.textContent = `Оплатить ${this._sidebarTotal.textContent} сом`;
     } else {
       this._buttonOrder.textContent = 'Заказать';
       this._paymentTextHide.classList.remove('sidebar-payment__text--hide');
@@ -268,7 +268,7 @@ export default class Product {
   _setEventListeners() {
     this._deleteButton.addEventListener('click', () => {
       this._deleteProduct();
-      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))} сом`;
+      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))}`;
       this._discountSidebar.textContent = `−${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_subtitle')))} сом`;
       this._priceNoDiscountSidebar.textContent = `${this._modifyNumber(String(this._countPriceNoDiscountSidebar()))} сом`;
       this._quantityProductSidebar.textContent = `${this._productTitle(this._countValueCheckedCheckBoxes('basket-list__input'))}`;
@@ -283,7 +283,7 @@ export default class Product {
     });
 
     this._inputCheckbox.addEventListener('click', () => {
-      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))} сом`;
+      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))}`;
       this._discountSidebar.textContent = `−${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_subtitle')))} сом`;
       this._priceNoDiscountSidebar.textContent = `${this._modifyNumber(String(this._countPriceNoDiscountSidebar()))} сом`;
       this._quantityProductSidebar.textContent = `${this._productTitle(this._countValueCheckedCheckBoxes('basket-list__input'))}`;
@@ -299,7 +299,7 @@ export default class Product {
 
     this._allCheckbox.addEventListener('click', () => {
       this._toogleAllCheckbox();
-      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))} сом`;
+      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))}`;
       this._discountSidebar.textContent = `−${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_subtitle')))} сом`;
       this._priceNoDiscountSidebar.textContent = `${this._modifyNumber(String(this._countPriceNoDiscountSidebar()))} сом`;
       this._quantityProductSidebar.textContent = `${this._productTitle(this._countValueCheckedCheckBoxes('basket-list__input'))}`;
@@ -318,7 +318,7 @@ export default class Product {
       this._toogleRemainingQuantityDisable();
       this._toogleDisabledCountBtn();
       this._toogleFont();
-      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))} сом`;
+      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))}`;
       this._discountSidebar.textContent = `−${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_subtitle')))} сом`;
       this._priceNoDiscountSidebar.textContent = `${this._modifyNumber(String(this._countPriceNoDiscountSidebar()))} сом`;
       this._quantityProductSidebar.textContent = `${this._productTitle(this._countValueCheckedCheckBoxes('basket-list__input'))}`;
@@ -339,7 +339,7 @@ export default class Product {
       this._toogleRemainingQuantityDisable();
       this._toogleDisabledCountBtn();
       this._toogleFont();
-      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))} сом`;
+      this._sidebarTotal.textContent = `${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_title')))}`;
       this._discountSidebar.textContent = `−${this._modifyNumber(String(this._countValueCheckedCheckBoxes('basket-list__price_subtitle')))} сом`;
       this._priceNoDiscountSidebar.textContent = `${this._modifyNumber(String(this._countPriceNoDiscountSidebar()))} сом`;
       this._quantityProductSidebar.textContent = `${this._productTitle(this._countValueCheckedCheckBoxes('basket-list__input'))}`;

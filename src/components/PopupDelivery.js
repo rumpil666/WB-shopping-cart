@@ -15,6 +15,20 @@ export default class PopupDelivery extends Popup {
       e.target = null;
     };
 
+    open() {
+      super.open();
+      this._checked = document.querySelectorAll('input[class="radio delivery-adress"]:checked');
+    }
+
+    closeSubmit() {
+      super.close();
+    }
+
+    close() {
+      if (this._checked) this._checked.forEach((check) => {check.checked = true});
+      super.close();
+    }
+
     setEventListeners() {
       super.setEventListeners()
 

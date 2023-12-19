@@ -10,13 +10,20 @@
 @media screen and (max-width: 1020px) {
   .delivery {
     min-width: 400px;
-    max-width: 638px;
+    max-width: 900px;
   }
 }
 
 @media screen and (max-width: 580px) {
   .delivery {
-    min-width: 320px;
-    margin-left: -16px;
+    margin: 34px auto 0;
+    min-width: 284px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .delivery {
+    min-width: 320px;
+  }
+}
+

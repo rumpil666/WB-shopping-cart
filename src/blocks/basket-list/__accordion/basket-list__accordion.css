@@ -11,13 +11,14 @@
 @media screen and (max-width: 1020px) {
   .basket-list__accordion {
     border-bottom: none;
+    max-width: 933px;
   }
 }
 
 @media screen and (max-width: 580px) {
   .basket-list__accordion {
     min-width: 288px;
-    padding-bottom: 2px;
+    padding-bottom: 6px;
     border-bottom: none;
   }
 }

@@ -9,7 +9,6 @@
   width: max-content;
   height: fit-content;
   margin: 0;
-  letter-spacing: 0.1px;
 }
 
 @media screen and (max-width: 580px) {

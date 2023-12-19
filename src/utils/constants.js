@@ -1,6 +1,6 @@
-import product1 from '../images/Img1.png';
-import product2 from '../images/img2.png';
-import product3 from '../images/img3.png';
+import product1 from '../images/img1.jpg';
+import product2 from '../images/img2.jpg';
+import product3 from '../images/img3.jpg';
 
 const initialProducts = [
   {

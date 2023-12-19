@@ -137,7 +137,7 @@ function productTitle(number) {
   if ([5,6,7,8,9, 0].includes(last_num)) return 'товаров';
 }
 
-const sidebarTotal = document.querySelector('.sidebar-total__subtitle');
+const sidebarTotal = document.querySelector('.sidebar-total__subtitle--price');
 const quantityProduct = document.querySelector('.quantity__product');
 const totalTitle = document.querySelector('.basket-list__total');
 const priceNoDiscount = document.querySelector('.price-no-discount');
@@ -151,13 +151,13 @@ const discountTotal = countValueCheckedCheckBoxes('basket-list__price_subtitle')
 const productTotel = countValueCheckedCheckBoxes('basket-list__input');
 const priceNoDiscounted = priceTotal + discountTotal;
 
-sidebarTotal.textContent = `${String(priceTotal).replace(/(?=(?:.{3})*$)/g, ' ')} сом`;
+sidebarTotal.textContent = `${String(priceTotal).replace(/(?=(?:.{3})*$)/g, ' ')}`;
 quantityProduct.textContent = `${productTotel} ${productTitle(productTotel)}`;
 totalTitle.textContent = `${quantityProduct.textContent} · ${sidebarTotal.textContent}`
 spanBasket.textContent = productTotel;
 spanBasketTabbar.textContent = productTotel;
 priceNoDiscount.textContent = `${String(priceNoDiscounted).replace(/(?=(?:.{3})*$)/g, ' ')} сом`;
-discount.textContent = `−${String(discountTotal).replace(/(?=(?:.{3})*$)/g, ' ')} сом`;
+discount.textContent = `${`−${discountTotal.toLocaleString()}`} сом`;
 
 
 const buttonsPlus = document.querySelectorAll('.basket-list__plus');
@@ -204,7 +204,7 @@ function pressPlus(e) {
   if (inputNumber.value == 2) {
     spanNumbPhoto[spanNumbPhoto.length - 1].classList.toggle('delivery__number--hidden')
     spanNumbPhoto[spanNumbPhoto.length - 1].textContent++;
-  } else if ( inputNumber.value == (Number(spanNumbPhoto[spanNumbPhoto.length - 1].title) + 1)) {
+  } else if ( inputNumber.value == (Number(spanNumbPhoto[spanNumbPhoto.length - 1].title) + 1) && Number(spanNumbPhoto[spanNumbPhoto.length - 1].title) != 40) {
     deliveryImg[e.target.id - 1].classList.add('delivery__photo--visible');
     deliveryImg[e.target.id - 1].querySelector('.delivery__number').classList.add(`photo-span_2`);
     toggleVisible();
@@ -309,7 +309,7 @@ const popupPayment = new PopupPayment({
     imgPayment.forEach(elem => {
       elem.src = img
     });
-    popupPayment.close();
+    popupPayment.closeSubmit();
   },
 });
 
@@ -358,7 +358,7 @@ const popupDeliveris = new PopupDelivery({
     deliveryMethodSidebar.textContent = `Доставка ${methodSidebar}`;
     deliveryMethod.textContent = method;
     deliverEvaluation.textContent = evaluation;
-    popupDeliveris.close();
+    popupDeliveris.closeSubmit();
   }
 });
 

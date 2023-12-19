@@ -11,3 +11,10 @@
   height: 20px;
   background-image: url('../../../../images/accordion-close.svg');
 }
+
+@media screen and (max-width: 580px) {
+  .basket-list__accordion_btn {
+    margin: 4px 3px 0 0;
+  }
+}
+

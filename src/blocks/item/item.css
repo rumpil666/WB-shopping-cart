@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 1020px) {
   .item {
+    max-width: 933px;
     padding-top: 12px;
     border-top: 1px solid #dddde1;
     margin-bottom: 16px;
@@ -24,7 +25,10 @@
   .item {
     position: relative;
     height: 170px;
-    max-width: 288px;
+    /* max-width: 288px; */
+    min-width: 288px;
     width: 100%;
+    padding-top: 12px;
+    margin-bottom: 12px;
   }
 }

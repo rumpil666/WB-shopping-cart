@@ -10,14 +10,19 @@
 @media screen and (max-width: 1020px) {
   .recipient {
     min-width: 400px;
-    max-width: 638px;
+    max-width: 900px;
   }
 }
 
-
 @media screen and (max-width: 580px) {
   .recipient {
+    /* margin: 14px auto 26px; */
+    min-width: 284px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .recipient {
     min-width: 320px;
-    margin-left: -16px;
   }
 }

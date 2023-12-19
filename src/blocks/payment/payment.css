@@ -10,14 +10,20 @@
 @media screen and (max-width: 1020px) {
   .payment {
     min-width: 400px;
-    max-width: 638px;
+    max-width: 900px;
   }
 }
 
 @media screen and (max-width: 580px) {
   .payment {
+    margin: 17px auto 0;
+    min-width: 284px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .payment {
     min-width: 320px;
-    margin-left: -16px;
   }
 }
 

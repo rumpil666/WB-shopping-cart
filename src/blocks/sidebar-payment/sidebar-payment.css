@@ -1,7 +1,14 @@
 .sidebar-payment {
+  margin-top: -2px;
   display: flex;
   flex-direction: column;
   gap: 4px;
   max-width: 381px;
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar-payment {
+    max-width: 852px;
+  }
 }

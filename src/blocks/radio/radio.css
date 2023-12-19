@@ -12,6 +12,7 @@
   align-items: flex-start;
   user-select: none;
   width: 100%;
+  cursor: pointer;
 }
 
 .radio+label::before {

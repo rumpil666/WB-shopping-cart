@@ -11,3 +11,9 @@ outline: none;
 background-color: #fff;
 cursor: pointer;
 }
+
+@media screen and (max-width: 580px) {
+  .button__edit {
+      padding: 0;
+    }
+}
