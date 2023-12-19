@@ -1,9 +1,0 @@
-.item__container--gray {
-  filter: grayscale(100%);
-}
-
-@media screen and (max-width: 580px) {
-  .item__container--gray {
-    position: relative;
-  }
-}

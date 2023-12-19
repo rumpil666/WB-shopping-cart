@@ -1,7 +1,0 @@
-@media screen and (max-width: 580px) {
-  .item__description--sold-out {
-    position: absolute !important;
-    top: -72px !important;
-    height: fit-content;
-  }
-}
